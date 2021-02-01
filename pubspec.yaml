@@ -1,6 +1,6 @@
 name: copywriter
 description: Checks for copyright headers in each file.
-version: 1.0.0+1
+version: 1.1.0
 repository: https://github.com/johnpryan/copywriter
 
 environment:
