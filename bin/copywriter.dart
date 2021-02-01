@@ -60,8 +60,8 @@ Future main(List<String> args) async {
       exit(0);
     }
 
-    print(
-        '$_red${filesToEdit.length}$_noColor files have a missing or incorrect copyright header.\n');
+    print('$_red${filesToEdit.length}$_noColor files have a missing or '
+        'incorrect copyright header.\n');
     for (var file in filesToEdit) {
       print(path.relative(file.path, from: currentDirectory.path));
     }
@@ -77,6 +77,7 @@ Future main(List<String> args) async {
 }
 
 Future _writeCopyright(File file, String copyright) async {
+  var header = renderCopyrightTemplate(copyright);
   var contents = await file.readAsString();
-  await file.writeAsString(copyright + '\n\n' + contents);
+  await file.writeAsString(header + '\n\n' + contents);
 }
