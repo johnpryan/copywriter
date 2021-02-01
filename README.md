@@ -1,6 +1,9 @@
 Checks for copyright headers in each file.
 
+[![CI](https://github.com/johnpryan/copywriter/workflows/Dart%20CI/badge.svg)](https://github.com/johnpryan/copywriter/actions?query=branch%3Amaster)
+
 ## Usage
+
 ```
 copywriter --help
 -f, --file         Path to file containing the copyright header
