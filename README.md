@@ -5,6 +5,11 @@ Checks for copyright headers in each file.
 ## Usage
 
 ```
+pub global activate copywriter
+```
+
+
+```
 copywriter --help
 -f, --file         Path to file containing the copyright header
                    (defaults to ".copyright")
