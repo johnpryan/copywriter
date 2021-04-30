@@ -1,4 +1,4 @@
-Checks for copyright headers in each file.
+Checks for copyright headers in each Dart file.
 
 [![CI](https://github.com/johnpryan/copywriter/workflows/Dart%20CI/badge.svg)](https://github.com/johnpryan/copywriter/actions?query=branch%3Amaster)
 
