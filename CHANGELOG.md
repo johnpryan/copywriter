@@ -1,3 +1,6 @@
+## 2.0.0
+Upgrade to Dart 2.12 and null safety
+
 ## 1.1.0
 Added template support for {{ year }} in .copyright file.
 
