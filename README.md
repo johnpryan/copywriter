@@ -18,7 +18,11 @@ Create a `.copyright` file in the root of your project, containing a template:
 // found in the LICENSE file.
 ```
 
-Then run the `copywriter` commmand to 
+Then run the `copywriter` commmand. 
+A copyright header is added to any `.dart` files missing the header.
+The `{{ year }}` tag is ignored. When the tool writes new copyright headers,
+the current year is used.
+
 
 ```
 copywriter --help
