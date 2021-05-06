@@ -3,7 +3,7 @@
 
 import 'dart:convert';
 import 'dart:io';
-import 'package:mustache/mustache.dart' as mustache;
+import 'package:mustache_template/mustache_template.dart' as mustache;
 
 Stream<File> filesWithoutCopyright(
     Stream<File> inputStream, String copyright) async* {
