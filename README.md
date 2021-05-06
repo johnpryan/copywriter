@@ -4,10 +4,21 @@ Checks for copyright headers in each Dart file.
 
 ## Usage
 
+Activate this package:
+
 ```
 dart pub global activate copywriter
 ```
 
+Create a `.copyright` file in the root of your project, containing a template:
+
+```
+// Copyright {{ year }} John Doe. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+```
+
+Then run the `copywriter` commmand to 
 
 ```
 copywriter --help
