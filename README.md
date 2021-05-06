@@ -5,7 +5,7 @@ Checks for copyright headers in each Dart file.
 ## Usage
 
 ```
-pub global activate copywriter
+dart pub global activate copywriter
 ```
 
 
@@ -26,5 +26,5 @@ copywriter --help
 clone and activate this package:
 
 ```
-pub global activate --source path .
+dart pub global activate --source path .
 ```
