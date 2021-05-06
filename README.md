@@ -18,10 +18,9 @@ Create a `.copyright` file in the root of your project, containing a template:
 // found in the LICENSE file.
 ```
 
-Then run the `copywriter` commmand. 
-A copyright header is added to any `.dart` files missing the header.
-The `{{ year }}` tag is ignored. When the tool writes new copyright headers,
-the current year is used.
+The `copywriter` commmand writes a header to any `.dart` files 
+that are missing one. It ignores the `{{ year }}`tag when checking headers,
+and uses current year for new headers.
 
 
 ```
