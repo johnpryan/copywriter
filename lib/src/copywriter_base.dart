@@ -16,8 +16,7 @@ Stream<File> filesWithoutCopyright(
 }
 
 bool isValidCopyright(String expected, String test) {
-  var rendered = mustache.Template(expected)
-      .renderString({'year': '[0-9]*'});
+  var rendered = mustache.Template(expected).renderString({'year': '[0-9]*'});
   var regex = RegExp(rendered);
   return regex.hasMatch(test);
 }
